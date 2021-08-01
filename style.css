@@ -1,0 +1,315 @@
+body{
+	background-color: black;
+
+}
+.jumbotron{
+	background-color: white;
+	color: black;
+}
+.navbar{
+	position: sticky;
+}
+.nav-link{
+	margin-left: 30px;
+}
+.jumbotron{
+	padding: 5% 5%;
+}
+
+.link1{
+	
+	color: black;
+	display: inline-block;
+  margin: 2% 20% ;
+}
+
+.link{
+	margin-left: 15%;
+	color: black;
+  display: inline-block;
+	
+}
+.footer{
+	background-color: black;
+	
+	padding:10% 3%;
+}
+.footer-link{
+	color: #11999E;
+}
+.icn{
+	color: white;
+    font-size: 30px;
+}
+p{
+	color: #EAF6F6;
+}
+.end{
+	
+	padding: 0 0 50px 0;
+}
+
+.fab{
+	margin-left: 5%;
+	
+	padding: 30px 0 0 0;
+}
+.line{
+	display: inline;
+
+}
+.mail{
+	color: white;
+}
+
+
+.left {
+    animation-duration: 2s;
+    animation-name: slide;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+  from {
+   margin-left: 0px;
+  }
+  to {
+   margin-left: 300px;
+  }
+}
+
+.first-container{
+	margin-top:120px;
+   font-size:80px;
+   line-height:50px;
+   text-align:center;
+   margin-bottom: 20px;
+}
+.second-container,.third-container{
+	margin-top:20px;
+   font-size:50px;
+   line-height:40px;
+   text-align:center;
+}
+
+.container {
+height: 100px;
+ position: relative;
+  
+  overflow:hidden;
+   
+    
+}
+
+.third{
+  background-color: #171717;
+  padding-bottom: 100px;
+}
+.title {
+  display:inline;
+  position:relative;
+}
+
+.title1 {
+
+
+  animation-name: intro;
+  animation-duration:0.3s;
+  animation-iteration-count:1;
+
+  animation-timing-function:ease;
+  animation-delay:1s;
+  animation-fill-mode:backwards;
+  font-family: 'STIX Two Text', serif;
+ }
+
+@keyframes intro {
+  0% {
+    top:150px;
+  } 
+  98% {
+    top:-5px;
+  }
+  100% {
+    top:0%;
+  }
+}
+
+.title2 {
+  animation-name: intro;
+  animation-duration:0.2s;
+  animation-iteration-count:1;
+  animation-timing-function:ease;
+  animation-delay:1.2s;
+  animation-fill-mode:backwards;
+  font-size:40px;
+font-family: 'Acme', sans-serif;
+ }
+
+.title3 {
+  animation-name: intro;
+  animation-duration:0.2s;
+  animation-iteration-count:1;
+  animation-timing-function:ease;
+  animation-delay:1.4s;
+  animation-fill-mode:backwards;
+  
+ }
+
+.title4 {
+
+  animation-name: intro;
+  animation-duration:0.2s;
+  animation-iteration-count:1;
+  animation-timing-function:ease;
+  animation-delay:1.6s;
+  animation-fill-mode:backwards;
+  font-family: 'Acme', sans-serif;
+ }
+ .title5 {
+
+  animation-name: intro;
+  animation-duration:0.2s;
+  animation-iteration-count:1;
+  animation-timing-function:ease;
+  animation-delay:1.6s;
+  animation-fill-mode:backwards;
+  font-family: 'STIX Two Text', serif;
+ }
+
+.vl {
+  border-left: 2px solid white;
+  margin-left: 670px;
+  height: 130px;
+  margin-bottom: 0;
+}
+
+.see{
+  color: white;
+  display: inline;
+  margin-left: 650px;
+}
+.check{
+  color: white;
+  display: inline;
+  font-size: 25px;
+  margin: 150px auto 80px 500px;
+}
+.wow{
+  margin-bottom: 150px;
+}
+.d-block{
+  height: 450px;
+  padding-left: 320px;
+  padding-bottom: 2%;
+  box-sizing: initial;
+}
+hr{
+  display: inline-block;
+  color: white;
+}
+
+
+#container-anim {
+    color:white;
+    text-align:center;
+    text-transform: uppercase;
+    font-size:36px;
+    margin-bottom:50px;
+    font-family: 'Fredericka the Great', cursive;
+    width:100%;
+    bottom:45%;
+    display:block;
+}
+#flip {
+    height:50px;
+    overflow:hidden;
+}
+#flip > div > div {
+    color:#fff;
+    padding:4px 12px;
+    height:45px;
+    margin-bottom:45px;
+    display:inline-block;
+}
+#flip div:first-child {
+    animation: show 5s linear infinite;
+}
+#flip div div {background:#8C1864;}
+#flip div:first-child div {background:#F2911B;}
+#flip div:last-child div {background:#BF4904;}
+
+@keyframes show {
+    0% {margin-top:-270px;}
+    5% {margin-top:-180px;}
+    33% {margin-top:-180px;}
+    38% {margin-top:-90px;}
+    66% {margin-top:-90px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+.first-container{
+  
+   font-size:60px;
+   line-height:150px;
+}
+  
+.link1{
+  margin-left: 90px;
+}
+
+.link{
+  margin-left: 140px;
+  
+}
+
+.left{
+   text-align: center;
+  }
+
+  .footer{
+  
+  padding:10% 3%;
+}
+.footer-link{
+  color: #11999E;
+}
+.icn{
+  color: white;
+    font-size: 30px;
+}
+
+.d-block{
+  height: 250px;
+  padding-left: 20px;
+}
+
+.see{
+  margin-left: 190px;
+}
+
+.check{
+  
+  margin: 150px auto 80px 10px;
+}
+
+.vl {
+  margin-left: 225px;
+}
+
+@keyframes slide {
+  from {
+   margin-left: 85px;
+  }
+  to {
+   margin-left: -30px;
+  }
+}
+
+}
